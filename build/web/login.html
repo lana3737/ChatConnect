@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-md-3"></div>
+
+                <div class="col-md-6 text-center">
+                    <h2 class="my-4 display-6" style="font-family: 'Oswald', sans-serif;">Login</h2>
+                    <form action="login" method="post">
+                        <div class="form-group">
+                            <label for="username" style="font-family: 'Oswald', sans-serif;">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" style="font-family: 'Oswald', sans-serif;">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button type="submit" style="font-family: 'Oswald', sans-serif;" class="btn btn-success">Login</button>
+                    </form>
+                    <br>
+                    <a href="registration.html" style="font-family: 'Oswald', sans-serif;" class="btn btn-link">Register</a>
+                </div>
+            </div>
+
+            <div class="col-md-3"></div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
